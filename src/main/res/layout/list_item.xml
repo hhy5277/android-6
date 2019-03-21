@@ -17,6 +17,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/ListItemLayout"
     android:layout_width="match_parent"
     android:layout_height="@dimen/standard_list_item_size"
@@ -44,7 +45,7 @@
             android:layout_marginLeft="@dimen/standard_half_margin"
             android:layout_marginStart="@dimen/standard_half_margin"
             android:contentDescription="@null"
-            android:src="@drawable/folder" />
+            app:srcCompat="@drawable/folder" />
 
         <ImageView
             android:id="@+id/favorite_action"
@@ -56,7 +57,7 @@
             android:layout_marginEnd="@dimen/standard_quarter_margin"
             android:layout_marginRight="@dimen/standard_quarter_margin"
             android:contentDescription="@string/favorite"
-            android:src="@drawable/favorite"/>
+            app:srcCompat="@drawable/favorite"/>
 
             <ImageView
                 android:id="@+id/localFileIndicator"
@@ -69,7 +70,7 @@
                 android:layout_marginRight="@dimen/standard_quarter_margin"
                 android:contentDescription="@string/downloader_download_succeeded_ticker"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_synced" />
+                app:srcCompat="@drawable/ic_synced" />
 
     </RelativeLayout>
 
@@ -152,7 +153,7 @@
             android:paddingLeft="@dimen/standard_half_padding"
             android:paddingRight="@dimen/list_item_share_right_margin"
             android:paddingStart="@dimen/standard_half_padding"
-            android:src="@drawable/ic_comment"
+            app:srcCompat="@drawable/ic_comment"
             android:visibility="gone"/>
 
         <ImageView
@@ -169,7 +170,7 @@
             android:paddingLeft="@dimen/standard_half_padding"
             android:paddingRight="@dimen/list_item_share_right_margin"
             android:paddingStart="@dimen/standard_half_padding"
-            android:src="@drawable/ic_unshared" />
+            app:srcCompat="@drawable/ic_unshared" />
 
         <ImageView
             android:id="@+id/sharedAvatar"
@@ -181,7 +182,7 @@
             android:contentDescription="@string/shared_avatar_desc"
             android:clickable="true"
             android:focusable="true"
-            android:src="@drawable/ic_user"
+            app:srcCompat="@drawable/ic_user"
             android:visibility="gone" />
 
         <ImageView
@@ -198,7 +199,7 @@
             android:paddingLeft="@dimen/standard_half_padding"
             android:paddingRight="@dimen/alternate_padding"
             android:paddingStart="@dimen/standard_half_padding"
-            android:src="@drawable/ic_checkbox_blank_outline" />
+            app:srcCompat="@drawable/ic_checkbox_blank_outline" />
 
         <ImageView
             android:id="@+id/overflow_menu"
@@ -214,7 +215,7 @@
             android:paddingLeft="@dimen/standard_half_padding"
             android:paddingRight="@dimen/alternate_padding"
             android:paddingStart="@dimen/standard_half_padding"
-            android:src="@drawable/ic_dots_vertical" />
+            app:srcCompat="@drawable/ic_dots_vertical" />
 
     </RelativeLayout>
 

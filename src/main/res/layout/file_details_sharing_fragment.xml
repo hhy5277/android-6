@@ -125,7 +125,7 @@
                     android:paddingRight="@dimen/standard_eighth_margin"
                     android:paddingBottom="@dimen/standard_quarter_margin"
                     android:scaleType="fitStart"
-                    android:src="@drawable/ic_content_copy"/>
+                    app:srcCompat="@drawable/ic_content_copy"/>
 
                 <androidx.appcompat.widget.AppCompatCheckBox
                     android:id="@+id/share_by_link_allow_editing"
@@ -150,7 +150,7 @@
                 android:paddingLeft="@dimen/standard_half_padding"
                 android:paddingEnd="@dimen/zero"
                 android:paddingRight="@dimen/zero"
-                android:src="@drawable/ic_dots_vertical"/>
+                app:srcCompat="@drawable/ic_dots_vertical"/>
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView

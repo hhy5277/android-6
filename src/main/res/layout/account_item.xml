@@ -21,6 +21,7 @@
 -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="@dimen/account_item_layout_height"
     android:orientation="horizontal"
@@ -45,7 +46,7 @@
             android:layout_marginRight="@dimen/account_item_layout_user_image_margin"
             android:layout_marginEnd="@dimen/account_item_layout_user_image_margin"
             android:layout_marginTop="@dimen/account_item_layout_user_image_margin"
-            android:src="@drawable/folder"
+            app:srcCompat="@drawable/folder"
             android:contentDescription="@string/avatar"/>
 
         <ImageView
@@ -54,7 +55,7 @@
             android:layout_height="18dp"
             android:layout_gravity="bottom|end"
             android:background="@drawable/round_bgnd"
-            android:src="@drawable/account_circle_white"
+            app:srcCompat="@drawable/account_circle_white"
             android:contentDescription="@string/active_user"/>
     </FrameLayout>
 

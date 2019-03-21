@@ -16,6 +16,7 @@
 
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/ListItemLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -35,7 +36,7 @@
             android:layout_height="match_parent"
             android:padding="@dimen/standard_eigth_padding"
             android:scaleType="centerCrop"
-            android:src="@drawable/folder"
+            app:srcCompat="@drawable/folder"
             android:contentDescription="@null"/>
 
 
@@ -46,7 +47,7 @@
             android:layout_gravity="top|end"
             android:layout_margin="@dimen/standard_quarter_margin"
             android:contentDescription="@string/favorite_icon"
-            android:src="@drawable/favorite"/>
+            app:srcCompat="@drawable/favorite"/>
 
         <ImageView
             android:id="@+id/sharedIcon"
@@ -57,7 +58,7 @@
             android:layout_marginRight="@dimen/standard_quarter_margin"
             android:layout_marginTop="@dimen/grid_image_shared_icon_layout_top_margin"
             android:contentDescription="@string/shared_icon_shared_via_link"
-            android:src="@drawable/shared_via_link" />
+            app:srcCompat="@drawable/shared_via_link" />
 
         <ImageView
             android:id="@+id/unreadComments"
@@ -70,7 +71,7 @@
             android:clickable="true"
             android:contentDescription="@string/unread_comments"
             android:focusable="true"
-            android:src="@drawable/ic_comment_grid"
+            app:srcCompat="@drawable/ic_comment_grid"
             android:visibility="gone" />
 
         <ImageView
@@ -83,7 +84,7 @@
             android:layout_marginRight="@dimen/standard_quarter_margin"
             android:layout_marginTop="@dimen/standard_quarter_margin"
             android:contentDescription="@string/synced_icon"
-            android:src="@drawable/ic_synced" />
+            app:srcCompat="@drawable/ic_synced" />
 
         <ImageView
             android:id="@+id/custom_checkbox"

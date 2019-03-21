@@ -16,6 +16,7 @@
 
 -->
 <com.owncloud.android.ui.SquareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/ListItemLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -34,7 +35,7 @@
             android:layout_width="@dimen/standard_list_item_size"
             android:layout_height="@dimen/standard_list_item_size"
             android:layout_gravity="center"
-            android:src="@drawable/folder"
+            app:srcCompat="@drawable/folder"
             android:contentDescription="@null"/>
 
         <ImageView
@@ -43,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="top|end"
             android:layout_margin="@dimen/standard_quarter_margin"
-            android:src="@drawable/favorite"
+            app:srcCompat="@drawable/favorite"
             android:contentDescription="@string/favorite_icon"/>
 
         <ImageView
@@ -54,7 +55,7 @@
             android:layout_marginTop="@dimen/grid_item_shared_icon_layout_top_margin"
             android:layout_marginRight="@dimen/standard_quarter_margin"
             android:layout_marginEnd="@dimen/standard_quarter_margin"
-            android:src="@drawable/shared_via_link"
+            app:srcCompat="@drawable/shared_via_link"
             android:contentDescription="@string/shared_icon_shared_via_link"/>
 
         <ImageView
@@ -68,7 +69,7 @@
             android:layout_marginTop="@dimen/grid_item_shared_icon_layout_top_margin"
             android:layout_marginRight="@dimen/standard_quarter_margin"
             android:layout_marginEnd="@dimen/standard_quarter_margin"
-            android:src="@drawable/ic_comment_grid"
+            app:srcCompat="@drawable/ic_comment_grid"
             android:visibility="gone" />
 
         <ImageView
@@ -80,7 +81,7 @@
             android:layout_marginRight="@dimen/standard_quarter_margin"
             android:layout_marginEnd="@dimen/standard_quarter_margin"
             android:layout_marginTop="@dimen/standard_quarter_margin"
-            android:src="@drawable/ic_synced"
+            app:srcCompat="@drawable/ic_synced"
             android:contentDescription="@string/synced_icon"/>
 
         <ImageView

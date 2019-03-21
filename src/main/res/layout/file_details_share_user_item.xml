@@ -18,6 +18,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -37,7 +38,7 @@
             android:layout_marginStart="@dimen/standard_margin"
             android:layout_marginTop="@dimen/standard_half_margin"
             android:contentDescription="@string/user_icon"
-            android:src="@drawable/ic_user" />
+            app:srcCompat="@drawable/ic_user" />
 
         <TextView
             android:id="@+id/name"
@@ -72,5 +73,5 @@
             android:layout_marginRight="@dimen/standard_half_margin"
             android:contentDescription="@string/overflow_menu"
             android:padding="@dimen/standard_half_padding"
-            android:src="@drawable/ic_dots_vertical" />
+            app:srcCompat="@drawable/ic_dots_vertical" />
 </LinearLayout>

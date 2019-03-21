@@ -78,7 +78,7 @@
                             android:layout_marginEnd="@dimen/standard_eighth_margin"
                             android:layout_marginRight="@dimen/standard_eighth_margin"
                             android:contentDescription="@null"
-                            android:src="@drawable/ic_star_outline" />
+                            app:srcCompat="@drawable/ic_star_outline" />
 
                         <TextView
                             android:id="@+id/size"
@@ -116,7 +116,7 @@
                             android:layout_marginEnd="@dimen/standard_eighth_margin"
                             android:layout_marginRight="@dimen/standard_eighth_margin"
                             android:contentDescription="@null"
-                            android:src="@drawable/ic_tag"
+                            app:srcCompat="@drawable/ic_tag"
                             android:visibility="gone" />
 
                         <TextView
@@ -135,7 +135,7 @@
                     android:layout_height="wrap_content"
                     android:background="@color/white"
                     android:contentDescription="@string/overflow_menu"
-                    android:src="@drawable/ic_dots_vertical" />
+                    app:srcCompat="@drawable/ic_dots_vertical" />
             </LinearLayout>
 
             <LinearLayout

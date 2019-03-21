@@ -16,6 +16,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/fileDownloadLL"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
@@ -58,7 +59,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginLeft="@dimen/fragment_margin"
 			android:layout_marginStart="@dimen/fragment_margin"
-			android:src="@drawable/ic_action_cancel_grey"
+			app:srcCompat="@drawable/ic_action_cancel_grey"
 			android:background="@android:color/transparent"
 			android:contentDescription="@string/common_cancel"/>
 
@@ -71,7 +72,7 @@
 		android:layout_margin="@dimen/zero"
 		android:layout_gravity="center_horizontal"
 		android:contentDescription="@string/downloader_download_failed_ticker"
-		android:src="@drawable/image_fail" />
+		app:srcCompat="@drawable/image_fail" />
 										
 	<TextView 
 	    android:id="@+id/errorText" 
