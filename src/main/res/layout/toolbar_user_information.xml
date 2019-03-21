@@ -72,7 +72,7 @@
                         android:layout_width="@dimen/nav_drawer_header_avatar"
                         android:layout_height="@dimen/nav_drawer_header_avatar"
                         android:contentDescription="@string/avatar"
-                        android:src="@drawable/account_circle_white"/>
+                        app:srcCompat="@drawable/account_circle_white"/>
                 </FrameLayout>
 
                 <LinearLayout

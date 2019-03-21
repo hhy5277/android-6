@@ -43,7 +43,7 @@
                 android:layout_marginRight="@dimen/standard_half_margin"
                 android:layout_marginEnd="@dimen/standard_half_margin"
                 android:contentDescription="@null"
-                android:src="@drawable/file"/>
+                app:srcCompat="@drawable/file"/>
 
             <TextView
                 android:id="@+id/shareFileName"

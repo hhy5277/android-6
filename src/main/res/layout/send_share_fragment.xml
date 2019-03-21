@@ -20,6 +20,7 @@
  along with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -53,7 +54,7 @@
                 android:layout_height="@dimen/share_icon_size"
                 android:layout_gravity="center_horizontal"
                 android:contentDescription="@string/share"
-                android:src="@drawable/shared_via_users"
+                app:srcCompat="@drawable/shared_via_users"
                 android:paddingTop="@dimen/share_people_icon_layout_padding"
                 android:paddingRight="@dimen/share_people_icon_layout_padding"
                 android:paddingEnd="@dimen/share_people_icon_layout_padding"
@@ -86,7 +87,7 @@
                 android:layout_height="@dimen/share_icon_size"
                 android:layout_gravity="center_horizontal"
                 android:contentDescription="@string/link"
-                android:src="@drawable/shared_via_link"
+                app:srcCompat="@drawable/shared_via_link"
                 android:padding="12dp"
                 android:background="@drawable/round_bgnd"/>
 

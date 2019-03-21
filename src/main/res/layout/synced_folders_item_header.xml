@@ -19,6 +19,7 @@
   License along with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/header_container"
     android:layout_width="match_parent"
@@ -50,7 +51,7 @@
             android:layout_marginEnd="@dimen/synced_folders_item_type_layout_right_end_margin"
             android:layout_marginRight="@dimen/synced_folders_item_type_layout_right_end_margin"
             android:contentDescription="@string/synced_folders_type"
-            android:src="@drawable/image_32dp" />
+            app:srcCompat="@drawable/image_32dp" />
 
         <TextView
             android:id="@+id/title"
@@ -80,7 +81,7 @@
             android:contentDescription="@string/sync_status_button"
             android:focusable="true"
             android:padding="@dimen/standard_half_padding"
-            android:src="@drawable/ic_cloud_sync_off" />
+            app:srcCompat="@drawable/ic_cloud_sync_off" />
 
         <ImageButton
             android:id="@+id/settingsButton"
@@ -96,6 +97,6 @@
             android:paddingRight="@dimen/standard_padding"
             android:paddingStart="@dimen/standard_half_padding"
             android:paddingTop="@dimen/standard_half_padding"
-            android:src="@drawable/ic_dots_vertical" />
+            app:srcCompat="@drawable/ic_dots_vertical" />
     </LinearLayout>
 </RelativeLayout>

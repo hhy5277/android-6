@@ -20,6 +20,7 @@
   along with this program. If not, see <https://www.gnu.org/licenses/>.
 -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -38,7 +39,7 @@
         android:layout_marginRight="@dimen/notification_icon_layout_right_end_margin"
         android:layout_marginEnd="@dimen/notification_icon_layout_right_end_margin"
         android:alpha="0.5"
-        android:src="@drawable/ic_notification"
+        app:srcCompat="@drawable/ic_notification"
         android:contentDescription="@string/notification_icon"/>
 
     <LinearLayout
@@ -67,7 +68,7 @@
                 android:id="@+id/notification_dismiss"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_close"
+                app:srcCompat="@drawable/ic_close"
                 android:contentDescription="@string/dismiss_notification_description" />
         </LinearLayout>
 

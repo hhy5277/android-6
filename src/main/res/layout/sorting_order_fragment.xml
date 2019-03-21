@@ -18,7 +18,7 @@
   You should have received a copy of the GNU Affero General Public
   License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
-<LinearLayout
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/root"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -60,7 +60,7 @@
                     android:paddingRight="@dimen/standard_half_padding"
                     android:paddingEnd="@dimen/standard_half_padding"
                     android:paddingTop="@dimen/standard_half_padding"
-                    android:src="@drawable/ic_alphabetical_asc"
+                    app:srcCompat="@drawable/ic_alphabetical_asc"
                     android:contentDescription="@string/sort_by_name_ascending"/>
 
                 <TextView
@@ -99,7 +99,7 @@
                     android:paddingRight="@dimen/standard_half_padding"
                     android:paddingEnd="@dimen/standard_half_padding"
                     android:paddingTop="@dimen/standard_half_padding"
-                    android:src="@drawable/ic_alphabetical_desc"
+                    app:srcCompat="@drawable/ic_alphabetical_desc"
                     android:contentDescription="@string/sort_by_name_descending"/>
 
                 <TextView
@@ -139,7 +139,7 @@
                     android:paddingRight="@dimen/standard_half_padding"
                     android:paddingEnd="@dimen/standard_half_padding"
                     android:paddingTop="@dimen/standard_half_padding"
-                    android:src="@drawable/ic_modification_desc"
+                    app:srcCompat="@drawable/ic_modification_desc"
                     android:contentDescription="@string/sort_by_modification_date_descending"/>
 
                 <TextView
@@ -178,7 +178,7 @@
                     android:paddingRight="@dimen/standard_half_padding"
                     android:paddingEnd="@dimen/standard_half_padding"
                     android:paddingTop="@dimen/standard_half_padding"
-                    android:src="@drawable/ic_modification_asc"
+                    app:srcCompat="@drawable/ic_modification_asc"
                     android:contentDescription="@string/sort_by_modification_date_ascending"/>
 
                 <TextView
@@ -219,7 +219,7 @@
                     android:paddingRight="@dimen/standard_half_padding"
                     android:paddingEnd="@dimen/standard_half_padding"
                     android:paddingTop="@dimen/standard_half_padding"
-                    android:src="@drawable/ic_size_desc"
+                    app:srcCompat="@drawable/ic_size_desc"
                     android:contentDescription="@string/sort_by_size_descending"/>
 
                 <TextView
@@ -258,7 +258,7 @@
                     android:paddingRight="@dimen/standard_half_padding"
                     android:paddingEnd="@dimen/standard_half_padding"
                     android:paddingTop="@dimen/standard_half_padding"
-                    android:src="@drawable/ic_size_asc"
+                    app:srcCompat="@drawable/ic_size_asc"
                     android:contentDescription="@string/sort_by_size_ascending"/>
 
                 <TextView
