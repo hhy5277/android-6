@@ -721,7 +721,7 @@ public abstract class DrawerActivity extends ToolbarActivity implements DisplayU
                 getResources().getString(R.string.prefs_add_account)).setIcon(R.drawable.ic_account_plus);
         mNavigationView.getMenu().add(R.id.drawer_menu_accounts, R.id.drawer_menu_account_manage,
                 MENU_ORDER_ACCOUNT_FUNCTION,
-                getResources().getString(R.string.drawer_manage_accounts)).setIcon(R.drawable.settings);
+                getResources().getString(R.string.drawer_manage_accounts)).setIcon(R.drawable.nav_settings);
 
         // adding sets menu group back to visible, so safety check and setting invisible
         showMenu();
