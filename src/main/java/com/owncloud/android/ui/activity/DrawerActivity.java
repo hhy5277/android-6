@@ -943,7 +943,7 @@ public abstract class DrawerActivity extends ToolbarActivity implements DisplayU
             for (int i = 0; i < mNavigationView.getMenu().size(); i++) {
                 MenuItem menuItem = mNavigationView.getMenu().getItem(i);
                 if (menuItem.getIcon() != null) {
-                    menuItem.getIcon().setColorFilter(Color.GRAY, PorterDuff.Mode.SRC_ATOP);
+                    menuItem.getIcon().clearColorFilter();
                     menuItem.setTitle(Html.fromHtml("<font color='#000000'>" + menuItem.getTitle() + "</font>"));
                 }
             }
